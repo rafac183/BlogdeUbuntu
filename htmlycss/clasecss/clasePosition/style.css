@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    font-size: 2rem;
+    background-color: gray;
+}
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+.main .box {
+    border: 0.4rem solid black;
+    border-radius: 5rem;
+    display: inline-block;
+    background-color: white;
+}
+
+#main-h3 {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 4.5rem;
+    left: 43rem;
+}
+#main-p {
+    padding: 2rem;
+    text-align: center;
+    min-width: 50rem;
+    position: relative;
+    top: 10rem;
+}

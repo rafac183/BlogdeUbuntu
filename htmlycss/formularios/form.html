@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Formularios">
+    <meta name="robots" content="index-follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios y Calendario</title>
+    <link rel="stylesheet" href="/htmlycss/css/style.css">
+</head>
+    <main>
+        <form action=""><!--Forma larga de hacer calendario -->
+            <label for="nombre">
+                <span>Cual es tu Nombre?</span>
+                <input type="text" id="nombre" placeholder="Nombre">
+            </label>
+            <br />
+            <label for="inicio">
+                <span>Cuando iniciaste en Platzi?</span>
+                <input type="date" id="inicio" >
+            </label>
+            <br />
+            <label for="tiempo">
+                <span>En que horario Estudias?</span>
+                <input type="time" id="tiempo" >
+            </label>
+            <br />
+            <label for="hora">
+                <span>Hora</span>
+                <input type="time" id="hora" name="hora">
+            </label>
+            <br />
+            <label for="dia">
+                <span>Dia</span>
+                <input type="date" id="dia" name="Dia">
+            </label>
+            <br />
+            <label for="semana">
+                <span>Semana</span>
+                <input type="week" id="semana" name="semana">
+            </label>
+            <br />
+            <label for="mes">
+                <span>Mes</span>
+                <input type="month" id="mes" name="mes">
+            </label>
+            <input type="submit">  <!--Boton de enviar que guarda la info en la url de la página-->
+            <br /> 
+        </form>
+        <form action=""> <!--Forma corta de hacer calendario-->
+            <label for="calendario">
+                <span>Calendario</span>
+                <input type="datetime-local" id="calendario" name="calendario" id="">
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

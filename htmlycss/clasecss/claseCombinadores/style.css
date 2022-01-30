@@ -1,0 +1,12 @@
+main p { /*Descendientes*/
+    color: red;
+}
+/* main > p { Child hijo directo
+    color: red;
+} */
+/*h2 ~ p { General Siblins
+    color: red;
+}*/
+/* h2 + p { Adjacend Siblins 
+    color: red;
+} */

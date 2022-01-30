@@ -1,0 +1,28 @@
+.header-nav-list {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+}
+.header-nav-list_item {
+   display: inline-block;
+}
+.header-nav-list_item a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.header-nav-list_item a:hover {
+    color: blue;
+    font-size: 21px;
+}
+.header-nav-list_item a:active {
+    color: purple;
+}
+.header-nav-list_item a::before {
+    content: " | ";
+}

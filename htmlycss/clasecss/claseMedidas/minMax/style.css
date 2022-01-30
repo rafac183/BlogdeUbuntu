@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 32rem;
+    max-width: 50rem;
+    min-height: 50rem;
+    margin: 0 auto;
+    background-color: red;
+}

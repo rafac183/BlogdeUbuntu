@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.list {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.list a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(16, 160, 160);
+    border-radius: 2px;
+}
+
+.list .blog {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+}
+
