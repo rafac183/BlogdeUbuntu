@@ -1,0 +1,106 @@
+/*Inicio*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.5rem;
+    background-color: gray;
+    text-align: center;
+}
+/*Header*/
+.header-nav {
+    padding: 0.5rem;
+    background-color: aquamarine;
+    border: solid green;
+    border-radius: 1rem;
+    position: relative;
+}
+/*Header-logo*/
+.header-nav-logo {
+    text-align: start;
+    position: inherit;
+    top: 1.15rem;
+}
+#logo {
+    width: 5rem;
+    vertical-align: middle;
+}
+/*Header-lista*/
+.header-nav-list {
+    text-align: end;
+    position: inherit;
+    bottom: 2rem;
+}
+.header-nav-list_item {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/*Header-lista-estilosconlink*/
+.header-nav-list_item a {
+    color: black;
+    text-decoration: none;
+}
+.header-nav-list_item a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.header-nav-list_item a:active {
+    color: purple;
+    text-decoration: underline;
+}
+/*Main*/
+.main {
+    width: 97vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.main-sectionOne {
+    width: 80%;
+    background-color: red;
+    min-height: 50rem;
+    margin-left: auto;
+    margin-right: 0;
+}
+.main-sectionTwo li {
+    border: solid black;
+    background-color: blue;
+    height: 15rem;
+    padding: 0.2rem;
+    width: 15rem;
+}
+/*Fooder*/
+.footer {
+    height: 30rem;
+    display: flex;
+    background-color: green;
+    border: solid blue;
+    border-radius: 1rem;
+    flex-direction: row-reverse;
+}
+.footer li {
+    padding: 1rem;
+    display: inline-flex;
+    list-style: none;
+}
+/*Footer-lista-estilos del link*/
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.footer a:active {
+    color: purple;
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #003476;
+    --secundary-color: #b4d2f7;
+    --heade-size: 4rem;
+    --font: 1.8rem;
+    --width: 100vw;
+    --height-headerAndFooter: 15vh;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    width: 100vw;
+    height: var(--height-headerAndFooter);
+    background-color: var(--primary-color);
+}
+main {
+    width: var(--width);
+    height: 70vh;
+    font-size: var(--font);
+}
+h1 {
+    font-size: var(--heade-size);
+    color: var(--primary-color);
+}
+footer {
+    width: var(--width);
+    height: var(--height-headerAndFooter);
+    background-color: var(--secundary-color);
+}
