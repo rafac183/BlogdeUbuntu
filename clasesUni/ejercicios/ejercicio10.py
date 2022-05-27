@@ -4,6 +4,7 @@ print("Cambiar Vocales de una palabra")
 #ENTRADAS
 txt = input("Ingrese un texto o Una palabra: ")#buen dia
 #PROCESAMIENTO
+txt = txt.lower()
 i = 0
 txt2 = ""
 while(i < len(txt)):
