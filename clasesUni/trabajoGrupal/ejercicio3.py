@@ -11,30 +11,12 @@ user_year = int(user_year)
 
 #Declarar los dias dependiendo del mes
 day1 = 0
-if(user_month == 1):
+if(user_month == 1 or user_month == 3 or user_month == 5 or user_month == 7 or user_month == 8 or user_month == 10 or user_month == 12):
     day1 = 31
 elif(user_month == 2):
     day1 = 28
-elif(user_month == 3):
-    day1 = 31
-elif(user_month == 4):
+elif(user_month == 4 or user_month == 6 or user_month == 9 or user_month == 11):
     day1 = 30
-elif(user_month == 5):
-    day1 = 31
-elif(user_month == 6):
-    day1 = 30
-elif(user_month == 7):
-    day1 = 31
-elif(user_month == 8):
-    day1 = 31
-elif(user_month == 9):
-    day1 = 30
-elif(user_month == 10):
-    day1 = 31
-elif(user_month == 11):
-    day1 = 30
-elif(user_month == 12):
-    day1 = 31
 else:
     day1 = 31
 #Condicional por si el usuario ingresa año 2022 y Mes de Junio
