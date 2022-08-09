@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 class Account:
     id       = int
     name     = str
@@ -11,11 +8,4 @@ class Account:
     def __init__(self, name, document):
         self.name = name
         self.document = document
-
-
-
-
-
-
-
     

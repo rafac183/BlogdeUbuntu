@@ -1,6 +1,3 @@
 {
     "python.autoComplete.extraPaths": ["/poo/Python"],
-    
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs":"active"
 }

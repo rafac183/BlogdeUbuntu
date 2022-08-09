@@ -1,4 +1,3 @@
-from lib2to3.pgen2 import driver
 from account import Account
 
 class Car:
@@ -12,5 +11,8 @@ class Car:
         self.driver = driver
         self.passengers = passengers
 
-    def printDataCar():
-        print()
+    def printDataCar(elem):
+        elements = (vars(elem))
+        driver = (vars(elem.driver))
+        print(elements)
+        print(driver)
