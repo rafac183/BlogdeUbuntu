@@ -16,7 +16,7 @@ caja.push(new Cajero(50, 50));
 caja.push(new Cajero(20, 30));
 caja.push(new Cajero(10, 40));
 caja.push(new Cajero(5, 25));
-var dinero = 0
+var dinero = 0;
 var div = 0;
 var papeles = 0;
 
